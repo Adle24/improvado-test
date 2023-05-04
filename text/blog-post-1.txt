@@ -1,0 +1,92 @@
+How To Tackle B2B Marketing Attribution in 2023
+As customer journeys become more complex and multichannel, and marketers employ more advanced strategies like omnichannel marketing, ABM, and personalization, the need for accurate and precise analytics with B2B marketing attribution as its centerpiece becomes more evident. Still, in 2022, a striking 58% of B2B marketers reported that their marketing analytics is inadequate or needs improvement. 
+
+This article provides actionable insights and strategies to help you better understand the concepts, tools, and best practices of B2B marketing attribution. Whether you're just starting or refining your strategy, this guide will serve as a valuable resource for achieving marketing attribution success in 2023.
+
+What Is a B2B Marketing Funnel?
+
+
+
+Throughout the time consuming B2B sales funnel, a decision maker may come in contact with many of your marketing efforts. One single person might do all of the following things:
+
+See your Facebook ad
+Find your blog while searching a keyword on Google
+Download an eBook from your website
+Receive retargeting ads from Google Display
+View your Capterra ad while reading software reviews
+Get entered into your email nurture campaign
+Click on your branded Google ad
+Schedule a demo based off an email from your sales team
+Watch a webinar you sent via marketing emails
+And the list goes on. 
+
+As a fellow marketer, I too am met with this challenge of attribution: determining where exactly my customers are coming from, which marketing efforts are having a positive impact and how to give each channel proper credit. 
+
+I will walk you through how our marketing team implemented B2B marketing attribution.
+
+
+How to Build a B2B Marketing Attribution Model in 7 Steps
+Below are the 7 steps you need to take in order to execute B2B marketing attribution.
+
+Choose a source of truth.
+Collect event data about leads from your website.
+Connect each website lead with the channel they came from.
+Connect all leads at the Company level in your CRM or database. 
+Define your attribution model
+Visualize your attribution model
+Pull actionable insights from your data
+I will provide more detail about each of these steps below.
+
+
+A visual schema of our B2B Marketing Attribution Model at Improvado.
+Step 1: Choose a source of truth.
+The first thing you need to do is choose a source of truth for your business. For example, your CRM or database can be used as your source of truth. For us at Improvado, our source of truth is Salesforce.  
+
+Step 2: Collect event data about leads from your website.
+The next thing you need to do is make sure you are tracking leads who visit your website, and sending all that data to your source of truth. For example, we host our website on Webflow and we track events on our website using Mixpanel. We then use the Mixpanel API to send event data into our source of truth, which is Salesforce.
+
+What does it mean to track events? Events include every move a visitor makes on your website, including link clicks and page visits.
+
+For example, in the screenshot below, you can see how we use Mixpanel to see that this individual downloaded a resource on our website and they were referred from google.com and we can even see their email and other actions they have taken on our site.
+
+‍
+
+
+Step 3: Connect each website lead with the channel they came from.
+You can do this in a number of ways. At Improvado, we do this by looking at the UTM attributes tied to a visitor's link or by looking at the "Initial Referring Domain" (if no UTM is visible).
+
+Step 4: Connect all leads at the Company level in your CRM or database. 
+Often times there are multiple leads tied to one business. For example at Improvado, we have multiple "Contacts" connected to an "Account" in Salesforce.
+
+Step 5: Define your attribution model
+Depending on your team goals, you might decide to focus on a first click, last click, time decay, position based, or linear attribution model. Each of these attribution models gives different weight to channels based on where the interaction occurred in the customer journey. At Improvado we use a position based attribution model.
+
+
+
+
+Step 6: Visualize your attribution model
+Send data from your source of truth to a Business Intelligence tool like Tableau, Looker, Google Data Studio or PowerBI, so that you can create visualizations of your marketing attribution model. Sync this data automatically using Improvado's API to  send all your real-time marketing data (which includes paid channels, event tracking and sales data from Salesforce) into your visualization tool of choice. That way, it is easy to create visualizations that show your marketing attribution and performance over time.
+
+With Improvado, all it takes is a few clicks to send all this important data exactly where it needs to go, so we can visualize and share important insights with the team. Click here to try Improvado for yourself.‍
+
+
+‍
+
+Improvado allows you to view all of your marketing performance data in one place. For example, the screenshot below shows how we are able to view spend and performance data from Twitter, Google Adwords, Facebook, Bing and Amazon Sponsored Placements side by side.  
+
+Step 7: Pull actionable insights from your data
+We were able to use our position based attribution model to uncover which channels were generating the largest amount of revenue opportunities for our business. 
+
+As you can see in the screenshot below, SEO drives a majority of our revenue opportunities and therefore we decided to triple down on content as a growth channel at Improvado and cut back on Facebook ad spend. This is what we like to call data-driven actionable insights.
+
+
+
+
+
+
+Conclusion
+Setting up an automated B2B attribution system has allowed our team to see exactly which marketing efforts have led to opportunities and closed won deals. 
+
+This allows us to optimize campaigns by funneling more budget into what works and cutting the cord on what doesn’t. 
+
+With clearer insight into performance, we have been able to use our budget and time more efficiently on the channels that work best to increase ROI. 

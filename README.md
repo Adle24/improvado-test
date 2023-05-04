@@ -1,0 +1,1 @@
+To test an application install dependencies from requrements.txt on your desired virtual environment, then in terminal run uvicorn main:app --reload to start and appllication server. After server is started navigate to your_localhost_address/docs to test an api. 
